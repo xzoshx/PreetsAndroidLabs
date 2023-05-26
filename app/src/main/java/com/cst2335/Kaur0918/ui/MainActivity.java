@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         //variableBinding.textview1.setText(model.editString);
         model.editString.observe(this, s-> {
-            variableBinding.textview1.setText("Your edit text has"+ s);
+            variableBinding.textview1.setText("Your edit text has: "+ s);
         });
         variableBinding.button1.setOnClickListener(click ->
         {
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "The value is now: " + isChecked, Toast.LENGTH_SHORT).show();
         });
         variableBinding.imageButton.setOnClickListener(click->{
-            Toast.makeText(MainActivity.this, "Width:"+variableBinding.imageButton.getWidth()+"Length:"+variableBinding.imageButton.getHeight(), Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "Width:"+variableBinding.imageButton.getWidth()+" Length:"+variableBinding.imageButton.getHeight(), Toast.LENGTH_LONG).show();
         });
         /*btn.setOnClickListener(new View.OnClickListener() {
             @Override
