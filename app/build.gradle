@@ -6,6 +6,10 @@ android {
     namespace 'com.cst2335.Kaur0918'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding true;
+    }
+
     defaultConfig {
         applicationId "com.cst2335.Kaur0918"
         minSdk 22
