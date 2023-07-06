@@ -36,7 +36,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
