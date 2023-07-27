@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:ignore="MissingDefaultResource">
+
+
+    <TextView
+        android:id="@+id/fragmentMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MessageGoesHere"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/fragmentTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="TimeGoesHere"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/fragmentMessageTextView"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentMessageTextView" />
+
+    <TextView
+        android:id="@+id/fragmentDBIdTextView"
+        android:layout_width="204dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="28dp"
+        android:text="DatabaseIdGoesHere"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/fragmentTimeTextView"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentTimeTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
