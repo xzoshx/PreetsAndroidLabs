@@ -205,9 +205,9 @@ public class ChatRoom extends AppCompatActivity {
 
             messageTextView = itemView.findViewById(R.id.messageTextView);
             timeTextView = itemView.findViewById(R.id.timeTextView);
-            itemView.setOnClickListener(click->{
+            itemView.setOnClickListener(click -> {
                 int position = getAdapterPosition();
-                globalPosition=position;
+                globalPosition = position;
                 ChatMessage selectedMessage = messages.get(position);
                 cvm.selectedMessage.postValue(selectedMessage);
             });
