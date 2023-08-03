@@ -2,4 +2,11 @@
     <string name="app_name" translatable="false">Preet\'s Android Labs</string>
     <string name="button_message" translatable="false">LOGIN</string>
     <string name="passwordTextView" translatable="false">TYPE YOU PASSWORD</string>
+    <string name="message_goes_here" translatable="false">Message goes here</string>
+    <string name="time_goes_here" translatable="false">Time goes here</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="response" translatable="false">Message goes here1</string>
+    <string name="send" translatable="false">Time goes here</string>
+    <string name="der" translatable="false">TODO</string>
+    <string name="Button1st" translatable="false">send</string>
 </resources>

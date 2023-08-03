@@ -1,4 +1,4 @@
-package com.cst2335.Kaur0918.data;
+package com.cst2335.Kaur0918;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
